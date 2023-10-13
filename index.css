@@ -1,0 +1,36 @@
+img {
+  width: 90px;
+  height: 500px;
+  background-color: powderblue;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background-color: bisque;
+}
+
+.active-container {
+  width: 250px;
+  height: 500px;
+}
